@@ -51,27 +51,15 @@ const data = [
                     portfolio6,
 
                 ],
-                detail: 'My portfolio website',
+                detail: "Portfolio site is an extension of a freelancer's resume. It provides a convenient way for potential clients to view my work while also allowing me to expand on my skills and services.",
                 created: '02/09/2002',
                 role: 'Front-end',
                 frontend: 'reactjs, scss',
                 backend: 'null',
+                architect: null,
                 github: 'https://github.com/qnpDev/portfolio',
                 demo: null,
             },
-            // {
-            //     name: 'qnp2',
-            //     img: [
-            //         'https://fedudesign.vn/wp-content/uploads/2020/07/1039991-scaled.jpg',
-            //         'https://fedudesign.vn/wp-content/uploads/2020/07/1039991-scaled.jpg',
-            //     ],
-            //     detail: 'hihi',
-            //     created: '01/01/2001',
-            //     role: 'fullstack',
-            //     frontend: 'reactjs, scss',
-            //     backend: '.net, mysql',
-            //     demo: 'link demo'
-            // },
             
         ],
     },
@@ -117,6 +105,7 @@ const data = [
                 role: 'fullstack',
                 frontend: 'reactjs, css',
                 backend: '.net, microsoft sql server',
+                architect: 'microservice, websocket, design pattern, .net core',
                 github: 'https://github.com/qnpDev/MusicApp',
                 demo: null,
             },
@@ -135,11 +124,12 @@ const data = [
                     notif10,
 
                 ],
-                detail: 'Community and notification is a system web application of Ton Duc Thang University. This is a miniature society where the school can post announcements, and students can post to exchange, share and receive real-time support from the school',
+                detail: 'Community and notification is a system web application of Ton Duc Thang University. This is a miniature society where the school can post announcements, and students can post to exchange, share and receive real-time support from the school.',
                 created: '10/2021 - 12/2021',
                 role: 'fullstack',
                 frontend: 'reactjs, css',
                 backend: 'nodejs (expressjs), mongodb',
+                architect: 'microservice, websocket',
                 github: 'https://github.com/qnpDev/NotifApp',
                 demo: null,
             },
@@ -152,27 +142,15 @@ const data = [
                     chat4,
 
                 ],
-                detail: 'Community and notification is a system web application of Ton Duc Thang University. This is a miniature society where the school can post announcements, and students can post to exchange, share and receive real-time support from the school',
+                detail: 'Real-time chat is an online communication channel that allows you to conduct real-time conversations. It involves the transmission of live text messages from the sender to the recipient.',
                 created: '11/2021',
                 role: 'fullstack',
                 frontend: 'reactjs, css',
                 backend: 'nodejs (expressjs), mongodb',
+                architect: 'microservice, websocket',
                 github: 'https://github.com/qnpDev/ChatApp',
                 demo: null,
             },
-            // {
-            //     name: 'qnp',
-            //     img: [
-            //         'https://fedudesign.vn/wp-content/uploads/2020/07/1039991-scaled.jpg',
-            //         'https://fedudesign.vn/wp-content/uploads/2020/07/1039991-scaled.jpg',
-            //     ],
-            //     detail: 'hihi',
-            //     created: '01/01/2001',
-            //     role: 'fullstack',
-            //     frontend: 'reactjs, scss',
-            //     backend: '.net, mysql',
-            //     demo: 'link demo'
-            // },
             
         ],
     }

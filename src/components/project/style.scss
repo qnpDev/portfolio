@@ -51,6 +51,17 @@
                 &:hover {
                     background-color: var(--main-color);
                 }
+
+                .count{
+                    transition: all .5s;
+                    background-color: var(--notif-color);
+                    color: white;
+                    border-radius: 50%;
+                    padding: 1px 5px;
+                    font-size: small;
+                    text-align: center;
+
+                }
             }
 
             .active {
@@ -272,6 +283,9 @@
                             font-size: large;
                         }
                     }
+                }
+                .info-detail{
+                    text-transform: none;
                 }
             }
         }

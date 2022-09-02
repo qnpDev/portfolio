@@ -1,14 +1,3 @@
-:root {
-    --bg-color: #111;
-    --main-color: #ffb400;
-    --txt-color: #fff;
-    --toggle-color: #252525;
-    --nav-bg-color: #2b2a2a;
-    --cursor-color: 255, 199, 64;
-    --title-bg: hsla(0, 0%, 100%, .07);
-    --reverse-color: #fff;
-}
-
 body.dark-theme {
     --bg-color: #111;
     --main-color: #ffb400;
@@ -18,6 +7,7 @@ body.dark-theme {
     --cursor-color: 255, 199, 64;
     --title-bg: hsla(0, 0%, 100%, .07);
     --reverse-color: #fff;
+    --notif-color: #717070;
 }
 
 body.light-theme {
@@ -29,6 +19,7 @@ body.light-theme {
     --cursor-color: 149, 200, 92;
     --title-bg: rgba(30, 37, 48, .07);
     --reverse-color: #000;
+    --notif-color: #717070;
 }
 
 body {

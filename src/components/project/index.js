@@ -41,7 +41,8 @@ const Project = () => {
                                     onClick={() => handleChangeTab(e.id)}
                                     className={currentTab === e.id ? 'active' : ''}
                                 >
-                                    {e.name}
+                                    <span>{e.name} </span>
+                                    <span className='count'>{e.projects.length}</span>
                                 </li>
                             ))}
                             <li
@@ -49,7 +50,8 @@ const Project = () => {
                                 onClick={() => handleChangeTab(data.length + 1)}
                                 className={currentTab === data.length + 1 ? 'active' : ''}
                             >
-                                all
+                                <span>all </span>
+                                <span className='count'>{data.reduce((total, x) => total+=x.projects.length, 0)}</span>
                             </li>
                         </ul>
                     </motion.div>
@@ -67,7 +69,7 @@ const Project = () => {
                                     animate={{ x: 0, opacity: 1 }}
                                     transition={{
                                         delay: timer,
-                                        duration: .5
+                                        duration: 1
                                     }}
                                 >
                                     <div className='img'>
@@ -105,7 +107,7 @@ const Project = () => {
                                         {ele.name}
                                     </div>
                                     <div style={{ display: 'none' }}>
-                                        {timer += 0.2}
+                                        {timer += 0.1}
                                     </div>
                                 </motion.div>
                             </div>
@@ -139,7 +141,7 @@ const Project = () => {
                                         Detail
                                     </h3>
                                     <div className='info'>
-                                        <p>
+                                        <p className='info-detail'>
                                             {modal.detail}
                                         </p>
                                         <p>
@@ -158,6 +160,12 @@ const Project = () => {
                                             <span>Backend - </span>
                                             <span>{modal.backend}</span>
                                         </p>
+                                        {modal.architect && (
+                                            <p>
+                                            <span>Solution architect - </span>
+                                            <span>{modal.architect}</span>
+                                        </p>
+                                        )}
                                         {modal.github && (
                                             <p>
                                                 <span>Github - </span>
