@@ -34,55 +34,41 @@ import chat2 from '../../assets/projects/chat/chat-2.png'
 import chat3 from '../../assets/projects/chat/chat-3.png'
 import chat4 from '../../assets/projects/chat/chat-4.png'
 
+// appstore
+import appstore1 from '../../assets/projects/appstore/appstore-1.png'
+import appstore2 from '../../assets/projects/appstore/appstore-2.png'
+import appstore3 from '../../assets/projects/appstore/appstore-3.png'
+import appstore4 from '../../assets/projects/appstore/appstore-4.png'
+import appstore5 from '../../assets/projects/appstore/appstore-5.png'
+import appstore6 from '../../assets/projects/appstore/appstore-6.png'
+import appstore7 from '../../assets/projects/appstore/appstore-7.png'
+import appstore8 from '../../assets/projects/appstore/appstore-8.png'
+import appstore9 from '../../assets/projects/appstore/appstore-9.png'
+import appstore10 from '../../assets/projects/appstore/appstore-10.png'
+import appstore11 from '../../assets/projects/appstore/appstore-11.png'
+import appstore12 from '../../assets/projects/appstore/appstore-12.png'
+
+// chatbot
+import chatbot1 from '../../assets/projects/chatbot/chatbot-1.png'
+import chatbot2 from '../../assets/projects/chatbot/chatbot-2.png'
+import chatbot3 from '../../assets/projects/chatbot/chatbot-3.png'
+
+// hotel
+import hotel1 from '../../assets/projects/hotel/hotel-1.png'
+import hotel2 from '../../assets/projects/hotel/hotel-2.png'
+import hotel3 from '../../assets/projects/hotel/hotel-3.png'
+import hotel4 from '../../assets/projects/hotel/hotel-4.png'
+import hotel5 from '../../assets/projects/hotel/hotel-5.png'
+import hotel6 from '../../assets/projects/hotel/hotel-6.png'
+import hotel7 from '../../assets/projects/hotel/hotel-7.png'
+import hotel8 from '../../assets/projects/hotel/hotel-8.png'
+import hotel9 from '../../assets/projects/hotel/hotel-9.png'
+import hotel10 from '../../assets/projects/hotel/hotel-10.png'
+import hotel11 from '../../assets/projects/hotel/hotel-11.png'
+import hotel12 from '../../assets/projects/hotel/hotel-12.png'
+
 
 const data = [
-    {
-        id: 1,
-        name: 'Frontend',
-        projects: [
-            {
-                name: 'Portfolio',
-                img: [
-                    portfolio1,
-                    portfolio2,
-                    portfolio3,
-                    portfolio4,
-                    portfolio5,
-                    portfolio6,
-
-                ],
-                detail: "Portfolio site is an extension of a freelancer's resume. It provides a convenient way for potential clients to view my work while also allowing me to expand on my skills and services.",
-                created: '02/09/2002',
-                role: 'Front-end',
-                frontend: 'reactjs, scss',
-                backend: 'null',
-                architect: null,
-                github: 'https://github.com/qnpDev/portfolio',
-                demo: null,
-            },
-            
-        ],
-    },
-    {
-        id: 2,
-        name: 'backend',
-        projects: [
-            // {
-            //     name: 'qnp',
-            //     img: [
-            //         'https://fedudesign.vn/wp-content/uploads/2020/07/1039991-scaled.jpg',
-            //         'https://fedudesign.vn/wp-content/uploads/2020/07/1039991-scaled.jpg',
-            //     ],
-            //     detail: 'hihi',
-            //     created: '01/01/2001',
-            //     role: 'fullstack',
-            //     frontend: 'reactjs, scss',
-            //     backend: '.net, mysql',
-            //     demo: 'link demo'
-            // },
-            
-        ],
-    },
     {
         id: 3,
         name: 'fullstack',
@@ -100,7 +86,7 @@ const data = [
                     music8,
 
                 ],
-                detail: 'Music App is a web application that everyone can access to find and listen to music online. Moreover, people can upload their song and download their favorite song',
+                detail: 'Music App is a web application that everyone can access to find and listen to music online. Moreover, people can upload their song and download their favorite song.',
                 created: '08/2021 - 10/2021',
                 role: 'fullstack',
                 frontend: 'reactjs, css',
@@ -151,8 +137,112 @@ const data = [
                 github: 'https://github.com/qnpDev/ChatApp',
                 demo: null,
             },
+            {
+                name: 'appstore',
+                img: [
+                    appstore1,
+                    appstore2,
+                    appstore3,
+                    appstore4,
+                    appstore5,
+                    appstore6,
+                    appstore7,
+                    appstore8,
+                    appstore9,
+                    appstore10,
+                    appstore11,
+                    appstore12,
+
+                ],
+                detail: 'Appstore is a website which you can download, upload apk file. Moreover, you can sell your app on website and users can buy your app.',
+                created: '03/2021 - 05/2021',
+                role: 'fullstack',
+                frontend: 'html, css, bootstrap',
+                backend: 'php, mysql',
+                architect: null,
+                github: ' https://github.com/qnpDev/AppStore',
+                demo: null,
+            },
             
         ],
-    }
+        
+    },
+    {
+        id: 1,
+        name: 'Frontend',
+        projects: [
+            {
+                name: 'Portfolio',
+                img: [
+                    portfolio1,
+                    portfolio2,
+                    portfolio3,
+                    portfolio4,
+                    portfolio5,
+                    portfolio6,
+
+                ],
+                detail: "Portfolio site is an extension of a freelancer's resume. It provides a convenient way for potential clients to view my work while also allowing me to expand on my skills and services.",
+                created: '09/2002',
+                role: 'Front-end',
+                frontend: 'reactjs, scss',
+                backend: 'null',
+                architect: null,
+                github: 'https://github.com/qnpDev/portfolio',
+                demo: null,
+            },
+            
+        ],
+    },
+    {
+        id: 2,
+        name: 'backend',
+        projects: [
+            {
+                name: 'TDT chatbot',
+                img: [
+                    chatbot1,
+                    chatbot2,
+                    chatbot3,
+
+                ],
+                detail: 'Bot chat is a web service which you can ask about information of Ton Duc Thang University.',
+                created: '01/2022',
+                role: 'back-end',
+                frontend: 'html, css, bootstrap',
+                backend: 'django',
+                architect: 'tensorflow',
+                github: 'https://github.com/qnpDev/TDTChatbot',
+                demo: null,
+            },
+            {
+                name: 'hotel management system',
+                img: [
+                    hotel1,
+                    hotel2,
+                    hotel3,
+                    hotel4,
+                    hotel5,
+                    hotel6,
+                    hotel7,
+                    hotel8,
+                    hotel9,
+                    hotel10,
+                    hotel11,
+                    hotel12,
+
+                ],
+                detail: 'Website to manage your hotel and users can online book room in hotel',
+                created: '10/2021 - 12/2021',
+                role: 'back-end',
+                frontend: 'html, css, bootstrap',
+                backend: 'laravel, mysql',
+                architect: null,
+                github: 'https://github.com/qnpDev/HotelManagementSystem',
+                demo: null,
+            },
+            
+        ],
+    },
 ]
 export default data
