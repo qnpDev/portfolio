@@ -183,7 +183,7 @@ const data = [
 
                 ],
                 detail: "Portfolio site is an extension of a freelancer's resume. It provides a convenient way for potential clients to view my work while also allowing me to expand on my skills and services.",
-                created: '09/2002',
+                created: '09/2022',
                 role: 'Front-end',
                 frontend: 'reactjs, scss',
                 backend: 'null',
