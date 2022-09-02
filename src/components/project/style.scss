@@ -179,6 +179,9 @@
         border-radius: 8px;
         width: 100%;
 
+        @media screen and (max-width: 500px) {
+            padding: 15px;
+        }
         .wrab {
             display: flex;
             justify-content: space-between;
@@ -191,6 +194,9 @@
             }
         }
 
+        h3{
+            margin: 15px 0;
+        }
 
         ::-webkit-scrollbar {
             width: 0;

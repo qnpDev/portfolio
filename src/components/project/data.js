@@ -189,7 +189,7 @@ const data = [
                 backend: 'null',
                 architect: null,
                 github: 'https://github.com/qnpDev/portfolio',
-                demo: null,
+                demo: 'https://qnp.vercel.app/',
             },
             
         ],
