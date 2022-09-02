@@ -2,12 +2,14 @@ import React, { useEffect } from 'react';
 import './style.scss'
 import AOS from "aos"
 import Header from '../Header';
+import { address, email, phone, facebook, github } from './data.js'
 
 const Contact = () => {
     document.title = "Nguyen Phu Qui's contact"
 
     const handleSubmit = e => {
         e.preventDefault()
+        alert('The function is developing. Please copy your message and send to my email!')
     }
 
     useEffect(() => {
@@ -33,7 +35,7 @@ const Contact = () => {
                                     address
                                 </div>
                                 <div className='content'>
-                                    Tan Hung Ward, District 7, HCM
+                                    {address}
                                 </div>
                             </div>
                             <div className='detail'>
@@ -44,7 +46,7 @@ const Contact = () => {
                                     email
                                 </div>
                                 <div className='content'>
-                                    <a href='mailto:qnpdev@gmail.com'>qnpdev@gmail.com</a>
+                                    <a href={'mailto:' + email}>{email}</a>
                                 </div>
                             </div>
                             <div className='detail'>
@@ -55,7 +57,7 @@ const Contact = () => {
                                     phone
                                 </div>
                                 <div className='content'>
-                                    <a href='tel:0822226618'>0822226618</a>
+                                    <a href={'tel:0822226618' + phone}>{phone}</a>
                                 </div>
                             </div>
                             <div className='detail'>
@@ -66,7 +68,7 @@ const Contact = () => {
                                     facebook
                                 </div>
                                 <div className='content'>
-                                    <a href='https://www.facebook.com/NPQuii/'>fb.com/NPQuii</a>
+                                    <a href={facebook.link} target='_blank' rel='noopener noreferrer'>{facebook.show}</a>
                                 </div>
                             </div>
                             <div className='detail'>
@@ -77,7 +79,7 @@ const Contact = () => {
                                     github
                                 </div>
                                 <div className='content'>
-                                    <a href='https://github.com/qnpDev'>github.com/qnpDev</a>
+                                    <a href={github.link} target='_blank' rel='noopener noreferrer'>{github.show}</a>
                                 </div>
                             </div>
                         </div>

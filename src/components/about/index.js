@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from "aos"
 import './style.scss'
-import { personal, experience, skills, education} from './data.js'
+import { personal, experience, skills, education, cvLink} from './data.js'
 import Header from '../Header';
 
 const About = () => {
@@ -30,7 +30,7 @@ const About = () => {
                                     </li>
                                 ))}
                             </ul>
-                            <button>
+                            <button onClick={() => window.open(cvLink, "_blank")}>
                                 <i className='bx bxs-download' ></i>
                                 <span>Download CV</span>
                             </button>

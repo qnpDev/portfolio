@@ -3,6 +3,7 @@ import './style.scss'
 import { motion } from "framer-motion"
 import { Link } from 'react-router-dom'
 import avatar from '../../assets/avatar.jpg'
+import { name, sub, detail } from './data.js'
 
 const Home = () => {
     document.title = "Nguyen Phu Qui's portfolio"
@@ -27,8 +28,8 @@ const Home = () => {
                                 duration: 1
                             }}
                         >
-                            <h1>I'm qnp
-                                <span>Fullstack developer !</span>
+                            <h1>I'm {name}
+                                <span>{sub}</span>
                             </h1>
                         </motion.div>
                         <motion.div
@@ -39,9 +40,7 @@ const Home = () => {
                                 duration: 1
                             }}
                         >
-                            <p>
-                            Apply existing knowledge, improve, accumulate more experience to improve my work.
-                            </p>
+                            <p>{detail}</p>
                         </motion.div>
                         <div className='info-button'>
                             <motion.div

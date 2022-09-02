@@ -1,3 +1,4 @@
+const cvLink = 'https://drive.google.com/file/d/1HVn7AXg3gVATII6sgP2Y_J5N1wozLsHY/view?usp=sharing'
 
 const personal = [
     {
@@ -44,7 +45,7 @@ const personal = [
 
 const experience = [
     {
-        number: 2,
+        number: 1,
         value: 'php freelancer',
     },
     {
@@ -52,7 +53,7 @@ const experience = [
         value: 'award won',
     },
     {
-        number: 9,
+        number: 8,
         value: 'completed projects',
     },
     {
@@ -171,7 +172,7 @@ const education = [
         bxicon: 'bx-briefcase',
     },
     {
-        period: '2017 - 2019',
+        period: '2017 - 2018',
         name: 'PHP developer',
         role: 'Freelancer',
         detail: 'I joined a team of 8 people to work on a few projects. I got a backend position in the team with php language.',
@@ -193,4 +194,4 @@ const education = [
     },
 ]
 
-export { personal, experience, skills, education }
+export { personal, experience, skills, education, cvLink }

@@ -137,7 +137,12 @@
                 padding-top: 1rem;
                 color: var(--txt-color);
                 font-size: 18px;
-                line-height: 35px;
+                line-height: 40px;
+
+                @media screen and (max-width: 1200px) {
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                }
             }
 
             .info-button {
