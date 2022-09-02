@@ -143,6 +143,9 @@
                     padding-left: 1rem;
                     padding-right: 1rem;
                 }
+                @media screen and (max-width: 500px) {
+                    line-height: 30px;
+                }
             }
 
             .info-button {
