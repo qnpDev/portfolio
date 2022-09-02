@@ -16,6 +16,24 @@ import music6 from '../../assets/projects/music/music-6.png'
 import music7 from '../../assets/projects/music/music-7.png'
 import music8 from '../../assets/projects/music/music-8.png'
 
+// notif
+import notif1 from '../../assets/projects/notif/notif-1.png'
+import notif2 from '../../assets/projects/notif/notif-2.png'
+import notif3 from '../../assets/projects/notif/notif-3.png'
+import notif4 from '../../assets/projects/notif/notif-4.png'
+import notif5 from '../../assets/projects/notif/notif-5.png'
+import notif6 from '../../assets/projects/notif/notif-6.png'
+import notif7 from '../../assets/projects/notif/notif-7.png'
+import notif8 from '../../assets/projects/notif/notif-8.png'
+import notif9 from '../../assets/projects/notif/notif-9.png'
+import notif10 from '../../assets/projects/notif/notif-10.png'
+
+// chat
+import chat1 from '../../assets/projects/chat/chat-1.png'
+import chat2 from '../../assets/projects/chat/chat-2.png'
+import chat3 from '../../assets/projects/chat/chat-3.png'
+import chat4 from '../../assets/projects/chat/chat-4.png'
+
 
 const data = [
     {
@@ -38,8 +56,8 @@ const data = [
                 role: 'Front-end',
                 frontend: 'reactjs, scss',
                 backend: 'null',
-                github: 'null',
-                demo: 'null'
+                github: 'https://github.com/qnpDev/portfolio',
+                demo: null,
             },
             // {
             //     name: 'qnp2',
@@ -100,7 +118,47 @@ const data = [
                 frontend: 'reactjs, css',
                 backend: '.net, microsoft sql server',
                 github: 'https://github.com/qnpDev/MusicApp',
-                demo: 'null'
+                demo: null,
+            },
+            {
+                name: 'community & notification',
+                img: [
+                    notif1,
+                    notif2,
+                    notif3,
+                    notif4,
+                    notif5,
+                    notif6,
+                    notif7,
+                    notif8,
+                    notif9,
+                    notif10,
+
+                ],
+                detail: 'Community and notification is a system web application of Ton Duc Thang University. This is a miniature society where the school can post announcements, and students can post to exchange, share and receive real-time support from the school',
+                created: '10/2021 - 12/2021',
+                role: 'fullstack',
+                frontend: 'reactjs, css',
+                backend: 'nodejs (expressjs), mongodb',
+                github: 'https://github.com/qnpDev/NotifApp',
+                demo: null,
+            },
+            {
+                name: 'real-time chatting',
+                img: [
+                    chat1,
+                    chat2,
+                    chat3,
+                    chat4,
+
+                ],
+                detail: 'Community and notification is a system web application of Ton Duc Thang University. This is a miniature society where the school can post announcements, and students can post to exchange, share and receive real-time support from the school',
+                created: '11/2021',
+                role: 'fullstack',
+                frontend: 'reactjs, css',
+                backend: 'nodejs (expressjs), mongodb',
+                github: 'https://github.com/qnpDev/ChatApp',
+                demo: null,
             },
             // {
             //     name: 'qnp',

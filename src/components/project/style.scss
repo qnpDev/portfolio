@@ -113,6 +113,7 @@
                 transition: opacity .5s ease, visibility .5s ease, transform .5s ease, -webkit-transform .5s ease;
                 visibility: hidden;
                 z-index: 2;
+                text-align: center;
             }
 
             .bg-hover {
@@ -135,7 +136,7 @@
                 }
 
                 .bg-hover {
-                    opacity: .3;
+                    opacity: .6;
                     visibility: visible;
                 }
             }
@@ -264,6 +265,12 @@
                         text-decoration: none;
                         color: var(--main-color);
                         cursor: pointer;
+                        transition: all .5s;
+                        text-transform: lowercase;
+
+                        &:hover{
+                            font-size: large;
+                        }
                     }
                 }
             }

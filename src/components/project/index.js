@@ -67,7 +67,7 @@ const Project = () => {
                                     animate={{ x: 0, opacity: 1 }}
                                     transition={{
                                         delay: timer,
-                                        duration: 1
+                                        duration: .5
                                     }}
                                 >
                                     <div className='img'>
@@ -158,16 +158,16 @@ const Project = () => {
                                             <span>Backend - </span>
                                             <span>{modal.backend}</span>
                                         </p>
-                                        {modal.github !== 'null' && (
+                                        {modal.github && (
                                             <p>
                                                 <span>Github - </span>
-                                                <a  href={modal.github} className='link-demo'>{modal.github}</a>
+                                                <a href={modal.github} className='link-demo' target='_blank' rel='noopener noreferrer'>{modal.github}</a>
                                             </p>
                                         )}
-                                        {modal.demo !== 'null' && (
+                                        {modal.demo && (
                                             <p>
                                                 <span>Demo - </span>
-                                                <a href={modal.demo} className='link-demo'>{modal.demo}</a>
+                                                <a href={modal.demo} className='link-demo' target='_blank' rel='noopener noreferrer'>{modal.demo}</a>
                                             </p>
                                         )}
                                     </div>
