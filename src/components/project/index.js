@@ -24,7 +24,7 @@ const Project = () => {
         <>
             <div className='project'>
                 <div className='bg' />
-                <Header front1='my' front2='project' back='works' />
+                <Header front1='my' front2='projects' back='works' />
                 <div className='tab'>
                     <motion.div
                         initial={{ y: -40, opacity: 0 }}

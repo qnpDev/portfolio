@@ -62,7 +62,7 @@ const Static = () => {
                     </div>
                 </NavLink>
                 <NavLink
-                    to='/project'
+                    to='/projects'
                     activeclassname='active'
                     className='nav-item'>
                     <i className='bx bxs-briefcase' ></i>

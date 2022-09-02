@@ -52,8 +52,8 @@ const Home = () => {
                                     duration: 1
                                 }}
                             >
-                                <Link to='/project'>
-                                    <button>Project</button>
+                                <Link to='/projects'>
+                                    <button>Projects</button>
                                 </Link>
                             </motion.div>
                             <motion.div
