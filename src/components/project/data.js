@@ -70,7 +70,7 @@ import hotel12 from '../../assets/projects/hotel/hotel-12.png'
 
 const data = [
     {
-        id: 3,
+        id: 1,
         name: 'fullstack',
         projects: [
             {
@@ -168,7 +168,7 @@ const data = [
         
     },
     {
-        id: 1,
+        id: 2,
         name: 'Frontend',
         projects: [
             {
@@ -195,7 +195,7 @@ const data = [
         ],
     },
     {
-        id: 2,
+        id: 3,
         name: 'backend',
         projects: [
             {
