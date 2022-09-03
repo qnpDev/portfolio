@@ -1,11 +1,10 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Lazy, Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";
-import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "swiper/css/thumbs";
+import "swiper/css/lazy";
 
 const ProjectLib = ({ data }) => {
 
@@ -17,6 +16,7 @@ const ProjectLib = ({ data }) => {
                 //     "--swiper-pagination-color": "#fff",
                 // }}
                 loop={true}
+                lazy={true}
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{
@@ -27,7 +27,7 @@ const ProjectLib = ({ data }) => {
                     clickable: true,
                 }}
                 navigation={true}
-                modules={[Autoplay, Pagination, Navigation]}
+                modules={[Lazy, Autoplay, Pagination, Navigation]}
                 className="swiper"
             >
                 {data.map((e, i) => (
