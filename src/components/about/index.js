@@ -11,7 +11,6 @@ const About = () => {
     useEffect(() => {
         AOS.init();
         AOS.refresh();
-        window.scrollTo(0, 0)
     }, []);
 
     return (

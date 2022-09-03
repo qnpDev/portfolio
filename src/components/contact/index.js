@@ -15,7 +15,6 @@ const Contact = () => {
     useEffect(() => {
         AOS.init();
         AOS.refresh();
-        window.scrollTo(0, 0)
     }, []);
     return (
         <>

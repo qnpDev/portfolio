@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './style.scss'
 import { motion } from "framer-motion"
 import { Link } from 'react-router-dom'
@@ -8,9 +8,6 @@ import { name, sub, detail } from './data.js'
 const Home = () => {
     document.title = "Nguyen Phu Qui's portfolio"
     
-    useEffect(() => {
-        window.scrollTo(0,0)
-    }, [])
     return (
         <>
             <div className='home'>

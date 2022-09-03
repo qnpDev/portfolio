@@ -228,6 +228,13 @@
             margin-bottom: 1rem;
             --swiper-navigation-color: var(--main-color);
             --swiper-pagination-color: var(--main-color);
+
+            .wrap{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+            }
         }
         .mySwiper{
             height: 10vh;

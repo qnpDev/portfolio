@@ -11,7 +11,7 @@ const personal = [
     },
     {
         key: 'Birthday',
-        value: '17/01/2001',
+        value: '01/2001',
     },
     {
         key: 'Sex',

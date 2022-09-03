@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './style.scss'
 import data from './data.js'
 import ProjectLib from './lib';
@@ -17,9 +17,6 @@ const Project = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' })
     }
 
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
     return (
         <>
             <div className='project'>
