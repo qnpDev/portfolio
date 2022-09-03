@@ -2,15 +2,15 @@ import React, { useEffect } from 'react';
 import './style.scss'
 import AOS from "aos"
 import Header from '../Header';
-import { address, email, phone, facebook, github } from './data.js'
+import { address, email, phone, facebook, github, qr } from './data.js'
 
 const Contact = () => {
     document.title = "Nguyen Phu Qui's contact"
 
-    const handleSubmit = e => {
-        e.preventDefault()
-        alert('The function is developing. Please copy your message and send to my email!')
-    }
+    // const handleSubmit = e => {
+    //     e.preventDefault()
+    //     alert('The function is developing. Please copy your message and send to my email!')
+    // }
 
     useEffect(() => {
         AOS.init();
@@ -83,7 +83,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='mail'>
+                    {/* <div className='mail'>
                         <div data-aos='fade-up'>
                             <form onSubmit={handleSubmit}>
                                 <div className='name-email'>
@@ -110,6 +110,28 @@ const Contact = () => {
                                     </button>
                                 </div>
                             </form>
+                        </div>
+                    </div> */}
+
+
+                    <div className='qrcode'>
+                        <div data-aos='fade-up'>
+                            <div className='wrap'>
+                                <div className='img'>
+                                    <div style={{ backgroundImage: "url(" + qr.show + ")" }} />
+                                </div>
+                                <div className='scan'>scan me</div>
+                            </div>
+                            <div className='button'>
+                                <button onClick={() => window.open(qr.link, "_blank")}>
+                                    <div className="svg-wrapper-1">
+                                        <div className="svg-wrapper">
+                                            <i className='bx bxs-download' />
+                                        </div>
+                                    </div>
+                                    <span>Download</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>

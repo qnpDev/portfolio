@@ -205,8 +205,112 @@
                         }
                     }
                 }
+            }
+        }
 
+        .qrcode {
+            width: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2rem;
 
+            @media screen and (max-width: 1200px) {
+                width: 100%;
+                padding-bottom: 6rem;
+            }
+
+            .wrap {
+                background-color: var(--main-color);
+                color: white;
+                display: block;
+                border: 4px solid var(--main-color);
+                box-shadow: 0 0 7px rgb(0 0 0 / 90%);
+                border-radius: 30px;
+                padding: 10px;
+
+                .img {
+                    width: 18rem;
+                    height: 18rem;
+                    display: block;
+
+                    div {
+                        width: 100%;
+                        height: 100%;
+                        background-position: 50%;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                }
+
+                .scan {
+                    text-align: center;
+                    margin-top: 12px;
+                    font-weight: 700;
+                    font-size: 2.5rem;
+                    text-transform: uppercase;
+                }
+            }
+
+            .button {
+                margin-top: 2rem;
+                display: flex;
+                justify-content: center;
+
+                button {
+                    cursor: pointer;
+                    font-family: inherit;
+                    font-size: 20px;
+                    background: var(--main-color);
+                    color: white;
+                    padding: 0.7em 1em;
+                    padding-left: 0.9em;
+                    display: flex;
+                    align-items: center;
+                    border: none;
+                    border-radius: 30px;
+                    overflow: hidden;
+                    transition: all 0.2s;
+
+                    span {
+                        display: block;
+                        margin-left: 0.3em;
+                        transition: all 0.3s ease-in-out;
+                    }
+
+                    i {
+                        display: block;
+                        transform-origin: center center;
+                        transition: transform 0.3s ease-in-out;
+                        transform: rotate(-90deg);
+                    }
+
+                    &:hover .svg-wrapper {
+                        animation: fly-1 0.6s ease-in-out infinite alternate;
+                    }
+
+                    &:hover i {
+                        transform: translateX(2.4em) rotate(0deg) scale(1.1);
+                    }
+
+                    &:hover span {
+                        transform: translateX(7em);
+                    }
+
+                    &:active {
+                        transform: scale(0.95);
+                    }
+
+                    @keyframes fly-1 {
+                        from {
+                            transform: translateY(0.1em);
+                        }
+
+                        to {
+                            transform: translateY(-0.1em);
+                        }
+                    }
+                }
             }
         }
     }
