@@ -31,7 +31,7 @@ const ProjectLib = ({ data }) => {
                 className="swiper"
             >
                 {data.map((e, i) => (
-                    <SwiperSlide key={i}>
+                    <SwiperSlide key={i} className='slide'>
                         <div className='wrap'>
                             <img alt='qnp project images' src={e} />
                         </div>
