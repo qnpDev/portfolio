@@ -77,7 +77,8 @@
                     background-color: var(--main-color);
                     transition: .5s;
                     color: var(--reverse-color);
-                    scale: 1.1;
+                    transform: scale(1.1);
+                    -webkit-transform:scale(1.1);
                 }
 
                 &:hover i {
@@ -171,7 +172,8 @@
                 }
 
                 &:hover {
-                    scale: 1.1;
+                    transform: scale(1.1);
+                    -webkit-transform:scale(1.1);
                 }
             }
         }
@@ -195,7 +197,7 @@
             gap: 2.5rem 0;
             margin-top: 4rem;
             overflow: hidden;
-            padding-top: .5rem;
+            padding-top: 1rem;
             padding-bottom: 1rem;
 
             .item {
@@ -247,10 +249,14 @@
                 }
 
                 &:hover{
-                    scale: 1.2;
+                    // scale: 1.2;
+                    transform: scale(1.2);
+                    -webkit-transform:scale(1.2);
 
                     @media screen and (max-width: 500px) {
-                        scale: 1.1;
+                        // scale: 1.1;
+                        transform: scale(1.1);
+                        -webkit-transform:scale(1.1);
                     }
                 }
             }

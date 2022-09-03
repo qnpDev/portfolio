@@ -91,6 +91,7 @@
             // height: 18rem;
             cursor: pointer;
             width: calc(33.33333% - 20px);
+            margin-bottom: .5rem;
 
             @media screen and (max-width: 992px) {
                 width: calc(50% - 15px);
