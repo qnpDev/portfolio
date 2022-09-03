@@ -128,18 +128,18 @@ const skills = [
         name: 'nodejs',
         img: 'https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png',
     },
-    {
-        name: 'django',
-        img: 'https://cdn.worldvectorlogo.com/logos/django.svg',
-    },
-    {
-        name: 'unity',
-        img: 'https://seeklogo.com/images/U/unity-logo-988A22E703-seeklogo.com.png',
-    },
-    {
-        name: 'spring',
-        img: 'https://seeklogo.com/images/S/spring-logo-9A2BC78AAF-seeklogo.com.png',
-    },
+    // {
+    //     name: 'django',
+    //     img: 'https://cdn.worldvectorlogo.com/logos/django.svg',
+    // },
+    // {
+    //     name: 'unity',
+    //     img: 'https://seeklogo.com/images/U/unity-logo-988A22E703-seeklogo.com.png',
+    // },
+    // {
+    //     name: 'spring',
+    //     img: 'https://seeklogo.com/images/S/spring-logo-9A2BC78AAF-seeklogo.com.png',
+    // },
     {
         name: 'mysql',
         img: 'https://pngimg.com/uploads/mysql/mysql_PNG9.png',
@@ -156,10 +156,10 @@ const skills = [
         name: 'firebase',
         img: 'https://e-cens.com/wp-content/uploads/elementor/thumbs/firebase-logo_ecens_training-plbnbm1jjt8wi3ksa039i1e2nvw7to1vqajqh3hoas.png',
     },
-    {
-        name: 'android studio',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/1900px-Android_Studio_Icon_3.6.svg.png',
-    },
+    // {
+    //     name: 'android studio',
+    //     img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/1900px-Android_Studio_Icon_3.6.svg.png',
+    // },
 
 ]
 
