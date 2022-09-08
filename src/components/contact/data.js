@@ -4,7 +4,7 @@ const address = 'Tan Hung Ward, District 7, HCM'
 const email = 'qnpdev@gmail.com'
 const phone = '0822226618'
 const facebook = {
-    link: 'https://www.facebook.com/NPQuii/',
+    link: '100029121395944',
     show: 'fb.com/NPQuii'
 }
 const github = {

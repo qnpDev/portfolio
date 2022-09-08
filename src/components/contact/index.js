@@ -12,6 +12,22 @@ const Contact = () => {
     //     alert('The function is developing. Please copy your message and send to my email!')
     // }
 
+    const detectMob = () => {
+        const toMatch = [
+            /Android/i,
+            /webOS/i,
+            /iPhone/i,
+            /iPad/i,
+            /iPod/i,
+            /BlackBerry/i,
+            /Windows Phone/i
+        ];
+        
+        return toMatch.some((toMatchItem) => navigator.userAgent.match(toMatchItem));
+    }
+
+    console.log(detectMob())
+
     useEffect(() => {
         AOS.init();
         AOS.refresh();
@@ -67,7 +83,7 @@ const Contact = () => {
                                     facebook
                                 </div>
                                 <div className='content'>
-                                    <a href={facebook.link} target='_blank' rel='noopener noreferrer'>{facebook.show}</a>
+                                    <a href={detectMob() ? 'fb://profile/' + facebook.link : 'https://www.facebook.com/' + facebook.link} target='_blank' rel='noopener noreferrer'>{facebook.show}</a>
                                 </div>
                             </div>
                             <div className='detail'>

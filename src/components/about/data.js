@@ -1,4 +1,4 @@
-const cvLink = 'https://drive.google.com/file/d/1BD3p_Y9NrDdb_Zxs0gJgxfcOZpltHtA9/view?usp=sharing'
+const cvLink = 'https://drive.google.com/file/d/11DfMrpTr6lCOfoMwaU4QkIuN0Cxt1lrr/view?usp=sharing'
 
 const personal = [
     {
