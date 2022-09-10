@@ -90,7 +90,7 @@ const skills = [
     },
     {
         name: 'python',
-        img: 'https://cdn.transa.ng/transang-blog/2019/01/1200px-Python.svg.png',
+        img: 'https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png',
     },
     {
         name: 'c#',

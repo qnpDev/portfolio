@@ -169,6 +169,10 @@
                         transform: translateY(-50%);
                         width: 30px;
                     }
+
+                    @media screen and (max-width: 600px) {
+                        font-size: 8px;
+                    }
                 }
 
                 &:hover {

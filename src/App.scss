@@ -16,7 +16,7 @@ body.dark-theme {
 
 body.light-theme {
     --bg-color: #fff;
-    --main-color: #72b626;
+    --main-color: #77D970; //#72b626
     --txt-color: #666;
     --toggle-color: #000;
     --nav-bg-color: #eee;
@@ -118,6 +118,15 @@ body {
             font-size: 2rem;
             color: #fff;
             transition: all .5s;
+        }
+
+        @media screen and (max-width: 600px) {
+            width: 2.5rem;
+            height: 2.5rem;
+
+            i {
+                font-size: 1.3rem;
+            }
         }
     }
 }
