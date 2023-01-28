@@ -33,7 +33,8 @@ const ProjectLib = ({ data }) => {
                 {data.map((e, i) => (
                     <SwiperSlide key={i} className='slide'>
                         <div className='wrap'>
-                            <img alt='qnp project images' src={e} />
+                            {/* <img alt='qnp project images' src={e} /> */}
+                            <div className='img' style={{ backgroundImage: 'url('+e+')'}}/>
                         </div>
                     </SwiperSlide>
                 ))}
