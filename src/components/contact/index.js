@@ -26,8 +26,6 @@ const Contact = () => {
         return toMatch.some((toMatchItem) => navigator.userAgent.match(toMatchItem));
     }
 
-    console.log(detectMob())
-
     useEffect(() => {
         AOS.init();
         AOS.refresh();
@@ -40,7 +38,7 @@ const Contact = () => {
                 <div className='wrap'>
                     <div className='info'>
                         <div data-aos='fade-up'>
-                            <h2>don't be shy !</h2>
+                            <h2>give me a chance!</h2>
                             <p>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
                             <div className='detail'>
                                 <div className='icon'>

@@ -68,6 +68,14 @@ import hotel11 from '../../assets/projects/hotel/hotel-11.png'
 import hotel12 from '../../assets/projects/hotel/hotel-12.png'
 
 
+// movie
+import movie1 from '../../assets/projects/movie/movie-1.png'
+import movie2 from '../../assets/projects/movie/movie-2.png'
+import movie3 from '../../assets/projects/movie/movie-3.png'
+import movie4 from '../../assets/projects/movie/movie-4.png'
+import movie5 from '../../assets/projects/movie/movie-5.png'
+import movie6 from '../../assets/projects/movie/movie-6.png'
+
 const data = [
     {
         id: 1,
@@ -120,24 +128,6 @@ const data = [
                 demo: null,
             },
             {
-                name: 'real-time chatting',
-                img: [
-                    chat1,
-                    chat2,
-                    chat3,
-                    chat4,
-
-                ],
-                detail: 'Real-time chat is an online communication channel that allows you to conduct real-time conversations. It involves the transmission of live text messages from the sender to the recipient.',
-                created: '11/2021',
-                role: 'fullstack',
-                frontend: 'reactjs, css',
-                backend: 'nodejs (expressjs), mongodb',
-                architect: 'microservice, websocket',
-                github: 'https://github.com/qnpDev/ChatApp',
-                demo: null,
-            },
-            {
                 name: 'appstore',
                 img: [
                     appstore1,
@@ -160,9 +150,28 @@ const data = [
                 frontend: 'html, css, bootstrap',
                 backend: 'php, mysql',
                 architect: null,
-                github: ' https://github.com/qnpDev/AppStore',
+                github: 'https://github.com/qnpDev/AppStore',
+                demo: 'https://appstore.qui.name.vn',
+            },
+            {
+                name: 'real-time chatting',
+                img: [
+                    chat1,
+                    chat2,
+                    chat3,
+                    chat4,
+
+                ],
+                detail: 'Real-time chat is an online communication channel that allows you to conduct real-time conversations. It involves the transmission of live text messages from the sender to the recipient.',
+                created: '11/2021',
+                role: 'fullstack',
+                frontend: 'reactjs, css',
+                backend: 'nodejs (expressjs), mongodb',
+                architect: 'microservice, websocket',
+                github: 'https://github.com/qnpDev/ChatApp',
                 demo: null,
             },
+            
             
         ],
         
@@ -198,6 +207,26 @@ const data = [
         id: 3,
         name: 'backend',
         projects: [
+            {
+                name: 'movie app',
+                img: [
+                    movie1,
+                    movie2,
+                    movie3,
+                    movie4,
+                    movie5,
+                    movie6,
+
+                ],
+                detail: 'Movie App is a web application like netflix. On website, everyone can access to find and view movie online.',
+                created: '10/2022 - 12/2022',
+                role: 'back-end',
+                frontend: 'reactjs, scss',
+                backend: 'Java Spring Boot RESTful API, MySQL',
+                architect: 'microservice, websocket, JPARepository',
+                github: 'https://github.com/qnpDev/MovieApp',
+                demo: 'https://www.youtube.com/watch?v=UmIzefYuKGY',
+            },
             {
                 name: 'TDT chatbot',
                 img: [

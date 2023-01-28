@@ -92,6 +92,7 @@
             cursor: pointer;
             width: calc(33.33333% - 20px);
             margin-bottom: .2rem;
+            background-color: var(--nav-bg-color);
 
             @media screen and (max-width: 992px) {
                 width: calc(50% - 15px);
