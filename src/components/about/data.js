@@ -172,18 +172,18 @@ const education = [
         bxicon: 'bx-briefcase',
     },
     {
+        period: '2017',
+        name: 'IT Competition for Youth',
+        role: 'First prize',
+        detail: 'I have been learning about programming and software since i was in 8th grade. So when i was in 10th grade, i participated in Pascal programming contest and won first prize.',
+        bxicon: 'bxs-medal',
+    },
+    {
         period: '2017 - 2018',
         name: 'PHP developer',
         role: 'Freelancer',
         detail: 'I joined a team of 8 people to work on a few projects. I got a backend position in the team with php language.',
         bxicon: 'bx-briefcase',
-    },
-    {
-        period: '2018',
-        name: 'IT Competition for Youth',
-        role: 'First prize',
-        detail: 'I have been learning about programming and software since i was in 8th grade. So when i was in 11th grade, i participated in Pascal programming contest and won first prize.',
-        bxicon: 'bxs-medal',
     },
     {
         period: '2019 - 2023',
