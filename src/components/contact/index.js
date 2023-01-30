@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './style.scss'
 import AOS from "aos"
 import Header from '../Header';
-import { address, email, phone, facebook, github, qr } from './data.js'
+import { address, email, phone, phone2, facebook, github, qr } from './data.js'
 
 const Contact = () => {
     document.title = "Nguyen Phu Qui's contact"
@@ -45,7 +45,7 @@ const Contact = () => {
                                     <i className='bx bxs-map' />
                                 </div>
                                 <div className='name'>
-                                    address
+                                    current address
                                 </div>
                                 <div className='content'>
                                     {address}
@@ -70,7 +70,13 @@ const Contact = () => {
                                     phone
                                 </div>
                                 <div className='content'>
-                                    <a href={'tel:0822226618' + phone}>{phone}</a>
+                                    <a href={'tel:' + phone.replaceAll('.', '')}>{phone}</a>
+                                    {phone2 && (
+                                        <>
+                                            <span> – </span>
+                                            <a href={'tel:' + phone2.replaceAll('.', '')}>{phone2}</a>
+                                        </>
+                                    )}
                                 </div>
                             </div>
                             <div className='detail'>

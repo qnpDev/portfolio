@@ -23,7 +23,7 @@ const personal = [
     },
     {
         key: 'Address',
-        value: 'Tan Hung Ward, District 7, HCM',
+        value: 'Binh Thuan Province',
     },
     {
         key: 'Phone',
