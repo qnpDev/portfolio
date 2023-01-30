@@ -4,6 +4,8 @@ import { motion } from "framer-motion"
 import { Link } from 'react-router-dom'
 import avatar from '../../assets/avatar.jpg'
 import { name, sub, detail } from './data.js'
+import { cvLink} from '../about/data.js'
+
 
 const Home = () => {
     document.title = "Nguyen Phu Qui's portfolio"
@@ -39,12 +41,27 @@ const Home = () => {
                         >
                             <p>{detail}</p>
                         </motion.div>
-                        <div className='info-button'>
+                        <div className='info-button-first'>
                             <motion.div
                                 initial={{ y: 20, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{
                                     delay: 1,
+                                    duration: 1
+                                }}
+                            >
+                                <button onClick={() => window.open(cvLink, "_blank")}>
+                                    <i className='bx bxs-download' ></i>
+                                    <span>Download CV</span>
+                                </button>
+                            </motion.div>
+                        </div>
+                        <div className='info-button'>
+                            <motion.div
+                                initial={{ y: 20, opacity: 0 }}
+                                animate={{ y: 0, opacity: 1 }}
+                                transition={{
+                                    delay: 1.5,
                                     duration: 1
                                 }}
                             >
@@ -56,7 +73,7 @@ const Home = () => {
                                 initial={{ y: 20, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{
-                                    delay: 1.5,
+                                    delay: 2,
                                     duration: 1
                                 }}
                             >
