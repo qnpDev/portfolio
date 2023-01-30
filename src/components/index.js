@@ -41,6 +41,9 @@ const Static = () => {
                     <Outlet />
                 </div>
             </motion.div>
+            <div className='toggle-theme-line'>
+                <div className='line'/>
+            </div>
             <div className='toggle-theme'>
                 <button onClick={handleTheme}>
                     {(theme === 'light-theme')

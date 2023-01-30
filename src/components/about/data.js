@@ -175,7 +175,7 @@ const education = [
         period: '2017',
         name: 'IT Competition for Youth',
         role: 'First prize',
-        detail: 'I have been learning about programming and software since i was in 8th grade. So when i was in 10th grade, i participated in Pascal programming contest and won first prize.',
+        detail: 'I have been learning about programming and software since i was in 9th grade. So when i was in 10th grade, i participated in Pascal programming contest and won first prize.',
         bxicon: 'bxs-medal',
     },
     {

@@ -94,6 +94,25 @@ body {
 
 }
 
+.toggle-theme-line{
+    position: fixed;
+    top: 0;
+    right: 3.5rem;
+    @media screen and (max-width: 1200px) {
+        right: 2.5rem;
+    }
+    @media screen and (max-width: 600px) {
+        right: 2rem;
+    }
+    transition: all .5s;
+    .line{
+        display: block;
+        width: .3rem;
+        height: 3.3rem;
+        background-color: var(--toggle-color);
+    }
+}
+
 .toggle-theme {
     position: fixed;
     top: 2rem;
