@@ -302,6 +302,10 @@
 
                     margin-bottom: 10px;
                     text-transform: capitalize;
+
+                    .auth{
+                        text-transform: none;
+                    }
                     font-weight: 400;
 
                     span:first-child {

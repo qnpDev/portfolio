@@ -175,6 +175,13 @@ const Project = () => {
                                                 <a href={modal.demo} className='link-demo' target='_blank' rel='noopener noreferrer'>{modal.demo}</a>
                                             </p>
                                         )}
+
+                                        {modal?.demoAuth && (
+                                            <p>
+                                                <span>Demo auth - </span>
+                                                <spanz className='auth'>{modal.demoAuth}</spanz>
+                                            </p>
+                                        )}
                                     </div>
                                 </div>
                             </div>

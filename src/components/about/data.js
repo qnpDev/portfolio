@@ -164,13 +164,13 @@ const skills = [
 ]
 
 const education = [
-    {
-        period: '2017',
-        name: 'avatar social (forum)',
-        role: 'backend & maintenance',
-        detail: 'I joined a group of 3 people to build and manage a forum. it looks like the avatar game but it was a website version.',
-        bxicon: 'bx-briefcase',
-    },
+    // {
+    //     period: '2017',
+    //     name: 'avatar social (forum)',
+    //     role: 'backend & maintenance',
+    //     detail: 'I joined a group of 3 people to build and manage a forum. it looks like the avatar game but it was a website version.',
+    //     bxicon: 'bx-briefcase',
+    // },
     {
         period: '2017',
         name: 'IT Competition for Youth',
@@ -178,13 +178,13 @@ const education = [
         detail: 'I have been learning about programming and software since i was in 9th grade. So when i was in 10th grade, i participated in Pascal programming contest and won first prize.',
         bxicon: 'bxs-medal',
     },
-    {
-        period: '2017 - 2018',
-        name: 'PHP developer',
-        role: 'Freelancer',
-        detail: 'I joined a team of 8 people to work on a few projects. I got a backend position in the team with php language.',
-        bxicon: 'bx-briefcase',
-    },
+    // {
+    //     period: '2017 - 2018',
+    //     name: 'PHP developer',
+    //     role: 'Freelancer',
+    //     detail: 'I joined a team of 8 people to work on a few projects. I got a backend position in the team with php language.',
+    //     bxicon: 'bx-briefcase',
+    // },
     {
         period: '2019 - 2023',
         name: 'Ton Duc Thang',

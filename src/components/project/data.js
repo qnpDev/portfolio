@@ -125,7 +125,8 @@ const data = [
                 backend: 'nodejs (expressjs), mongodb',
                 architect: 'microservice, websocket',
                 github: 'https://github.com/qnpDev/NotifApp',
-                demo: null,
+                demo: 'https://notif.qui.name.vn',
+                demoAuth: 'qnp / 1234',
             },
             {
                 name: 'appstore',
@@ -152,6 +153,7 @@ const data = [
                 architect: null,
                 github: 'https://github.com/qnpDev/AppStore',
                 demo: 'https://appstore.qui.name.vn',
+                demoAuth: 'admin / 123456',
             },
             {
                 name: 'real-time chatting',
@@ -169,7 +171,8 @@ const data = [
                 backend: 'nodejs (expressjs), mongodb',
                 architect: 'microservice, websocket',
                 github: 'https://github.com/qnpDev/ChatApp',
-                demo: null,
+                demo: 'https://chat.qui.name.vn',
+                demoAuth: 'qnp / 1234',
             },
             
             
@@ -198,7 +201,7 @@ const data = [
                 backend: 'null',
                 architect: null,
                 github: 'https://github.com/qnpDev/portfolio',
-                demo: 'https://qnp.vercel.app/',
+                demo: 'https://qui.name.vn',
             },
             
         ],
